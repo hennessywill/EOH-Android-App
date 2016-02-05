@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources 	xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<style name="Theme.Eoh" parent="Theme.AppCompat.Light">
+
+		<item name="android:buttonStyle">@style/Buttoneoh</item>
+		
+		<item name="android:imageButtonStyle">@style/ImageButtoneoh</item>
+		
+		<item name="android:spinnerStyle">@style/Spinnereoh</item>
+		
+		<item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemeoh</item>
+		
+		<item name="android:actionBarStyle">@style/ActionBar.Solid.Eoh</item>
+		
+		<item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Eoh</item>
+
+	</style>
+
+</resources>

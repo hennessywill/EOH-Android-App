@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="eoh_blue">#0C59A6</color>
+    <color name="eoh_orange">#FF9936</color>
+
+    <color name="list_item_background">#ffffff</color>
+    <color name="list_subtext_light_grey">#999999</color>
+
+    <color name="text_grey">#666666</color>
+    <color name="background_grey">#e4e4e4</color>
+
+    <color name="restaurant_line_grey">#ccc</color>
+    <color name="restaurant_closed">#e74c3c</color>
+</resources>

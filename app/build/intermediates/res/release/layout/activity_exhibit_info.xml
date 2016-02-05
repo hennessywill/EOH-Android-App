@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="@dimen/activity_padding"
+	    android:orientation="vertical" >
+	
+	    <LinearLayout
+	        android:id="@+id/exhibit_info_name_star_box"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="10" >
+		    <TextView
+		        android:id="@+id/exhibit_info_name"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/eoh_blue"
+		        android:textSize="22sp"
+		        android:layout_weight="8"
+		        android:layout_gravity="center_vertical" />
+		    
+		    <CheckBox
+		        android:id="@+id/exhibit_info_star"
+		        style="@style/StarStyleeoh"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:checked="false"
+		        android:layout_gravity="right"
+		        android:gravity="right"
+		        android:contentDescription="@string/exhibit_list_item_star_description"
+		        android:focusable="true"
+		        android:onClick="onStarClicked"
+	        	android:layout_weight="2" />
+	    </LinearLayout>
+	    
+	    	
+	    <TextView
+	        android:id="@+id/exhibit_info_major"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="6dp"
+	        android:textSize="18sp"
+	        android:textColor="@color/eoh_orange" />
+	
+	    <TextView
+	        android:id="@+id/exhibit_info_description"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="12dp"
+	        android:textSize="16sp"
+	        android:background="@color/background_grey"
+	        android:paddingTop="8dp"
+	        android:paddingBottom="8dp"
+	        android:paddingRight="14dp"
+	        android:paddingLeft="14dp" />
+		
+	    <TextView
+	        android:id="@+id/exhibit_info_location"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="12dp"
+	        android:textSize="16sp" />
+	
+	    <TextView
+	        android:id="@+id/exhibit_info_url"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="12dp"
+	        android:layout_gravity="center_horizontal"
+	        android:focusable="true"
+	        android:text="@string/exhibit_info_url"
+	        android:textColor="@color/eoh_orange"
+	        android:textSize="16sp" />
+	    
+	   	<Button
+	    	android:id="@+id/exhibit_info_get_directions"
+	        android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+	    	android:text="@string/exhibit_info_getdirections"
+	        android:layout_gravity="center_horizontal"
+	    	android:layout_marginTop="12dp"
+	    	android:onClick="getDirections" />
+	
+	</LinearLayout>
+</ScrollView><!-- From: file:/Users/willhennessy/AndroidStudioProjects/EOHApp2015/app/src/main/res/layout/activity_exhibit_info.xml -->

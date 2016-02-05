@@ -1,0 +1,3 @@
+/Users/willhennessy/AndroidStudioProjects/EOHApp2015/app/build/intermediates/classes/debug
+/Users/willhennessy/AndroidStudioProjects/EOHApp2015/app/build/intermediates/pre-dexed/debug/classes-e1bbe027791e6105128945b364e2b285bd31d47b.jar
+/Users/willhennessy/AndroidStudioProjects/EOHApp2015/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-61ae0e644ab298994c8a8bbee319d70f30fc9049.jar

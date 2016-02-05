@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EOH</string>
+    <string name="exhibit_info">Exhibit Info</string>
+    <string name="restaurant_info">Restaurant Info</string>
+    <string name="settings_info">Settings</string>
+    
+    <string name="exhibit_list_empty_message">There are no exhibits of that major in this building</string>
+    <string name="planner_list_empty_message">You have no planned events.\nTap the star next to an exhibit to add it to this list.</string>
+
+    <string name="major_spinner_default">All Majors</string>
+    <string name="building_spinner_default">All Buildings</string>
+
+    <string name="exhibit_list_item_name">Exhibit name</string>
+    <string name="exhibit_list_item_major">Major</string>
+    <string name="exhibit_list_item_location">Exhibit location</string>
+    <string name="exhibit_list_item_star_description">Favorites star</string>
+    
+    <string name="food_list_item_name">Restaurant name</string>
+    <string name="food_list_item_open">open</string>
+    <string name="food_list_item_location">Location</string>
+    <string name="food_list_item_rating_label">Rating: </string>
+    <string name="food_list_item_rating">Rating</string>
+    <string name="food_list_item_image_content_description">Restaurant category</string>
+    <string name="food_list_footer_loadmore">Load more</string>
+    
+    <string name="newsfeed_list_item_username">Username</string>
+    <string name="newsfeed_list_item_twitterhandle">Handle</string>
+    <string name="newsfeed_list_item_content">News content</string>
+    <string name="newsfeed_list_item_time">Post time</string>
+    <string name="newsfeed_list_item_image_content_description">EOH Logo</string>
+        
+    <string name="exhibit_info_name">Exhibit Name</string>
+    <string name="exhibit_info_major">Major</string>
+    <string name="exhibit_info_address">Address</string>
+    <string name="exhibit_info_location">Text Location</string>
+    <string name="exhibit_info_description">Exhibit description</string>
+	<string name="exhibit_info_url">More Information</string>
+	<string name="exhibit_info_getdirections">Get Directions</string>
+	
+	<string name="restaurant_info_name">Restaurant Name</string>
+	<string name="restaurant_info_vicinity">Vicinity</string>
+	<string name="restaurant_info_rating_label">Rating:</string>
+	<string name="restaurant_info_rating">Rating / 5.0</string>
+	<string name="restaurant_info_price_label">Price Level:</string>
+	<string name="restaurant_info_price">Price</string>
+	<string name="restaurant_info_url">More Information</string>
+	<string name="restaurant_info_getdirections">Get Directions</string>
+	<string name="restaurant_info_photo_content_description">Restaurant photo</string>
+	
+	
+	<string name="poweredbygoogle_content_description">Powered by Google</string>
+	<string name="ilogo_content_description">University of Illinois Logo</string>
+	<string name="settings">Settings</string>
+</resources>

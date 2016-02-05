@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom" >
+    
+    <Button
+        android:id="@+id/food_list_footer_loadmore"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+    	android:text="@string/food_list_footer_loadmore"
+    	android:layout_centerInParent="true"
+    	android:layout_alignParentTop="true" />
+    
+    <ImageView
+        android:id="@+id/food_list_footer_google_image"
+        android:src="@drawable/poweredbygoogle"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+		android:layout_centerInParent="true"
+		android:layout_below="@id/food_list_footer_loadmore"
+		android:paddingTop="4dp"
+		android:paddingBottom="4dp"
+		android:contentDescription="@string/poweredbygoogle_content_description" />
+    
+    <ProgressBar
+        android:id="@+id/food_list_footer_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_above="@id/food_list_footer_google_image" />
+
+</RelativeLayout>

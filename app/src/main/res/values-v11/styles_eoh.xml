@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	 <style name="Buttoneoh" parent="android:Widget.Button">
+	 	<item name="android:background">@drawable/eoh_btn_default_holo_light</item>
+	 	<item name="android:minHeight">48dip</item>
+	 	<item name="android:minWidth">64dip</item>
+	 	<item name="android:textColor">#000000</item>
+	 </style>
+	
+	 <style name="ImageButtoneoh" parent="android:Widget.ImageButton">
+	 	<item name="android:background">@drawable/eoh_btn_default_holo_light</item>
+	 </style>
+	
+	 <style name="Spinnereoh" parent="android:Widget.Spinner">
+	     <item name="android:background">@drawable/eoh_spinner_background_holo_light</item>
+	     <item name="android:dropDownSelector">@drawable/eoh_list_selector_holo_light</item>
+	 </style>
+	
+	 <style name="SpinnerDropDownItemeoh" parent="android:Widget.DropDownItem.Spinner">
+	     <item name="android:checkMark">@drawable/eoh_btn_radio_holo_light</item>
+	 </style>
+
+  
+    <style name="StarStyleeoh">
+	    <item name="android:button">@drawable/eoh_btn_rating_star_holo_light</item>
+	</style>
+
+    <style name="ActionBarTabStyle.Eoh" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_eoh</item>
+    </style>
+
+    <style name="ActionBar.Solid.Eoh" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_eoh</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_eoh</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_eoh</item>
+    </style>
+    
+</resources>

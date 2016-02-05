@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/willhennessy/AndroidStudioProjects/EOHApp2015/app/src/main/res/values-v11/styles_eoh.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Eoh" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_eoh</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_eoh</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_eoh</item>
+    </style>
+    <style name="ActionBarTabStyle.Eoh" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_eoh</item>
+    </style>
+    <style name="Buttoneoh" parent="android:Widget.Button">
+	 	<item name="android:background">@drawable/eoh_btn_default_holo_light</item>
+	 	<item name="android:minHeight">48dip</item>
+	 	<item name="android:minWidth">64dip</item>
+	 	<item name="android:textColor">#000000</item>
+	 </style>
+    <style name="ImageButtoneoh" parent="android:Widget.ImageButton">
+	 	<item name="android:background">@drawable/eoh_btn_default_holo_light</item>
+	 </style>
+    <style name="SpinnerDropDownItemeoh" parent="android:Widget.DropDownItem.Spinner">
+	     <item name="android:checkMark">@drawable/eoh_btn_radio_holo_light</item>
+	 </style>
+    <style name="Spinnereoh" parent="android:Widget.Spinner">
+	     <item name="android:background">@drawable/eoh_spinner_background_holo_light</item>
+	     <item name="android:dropDownSelector">@drawable/eoh_list_selector_holo_light</item>
+	 </style>
+    <style name="StarStyleeoh">
+	    <item name="android:button">@drawable/eoh_btn_rating_star_holo_light</item>
+	</style>
+    <!-- From: file:/Users/willhennessy/AndroidStudioProjects/EOHApp2015/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml -->
+    <eat-comment/>
+    <style name="Theme.Base" parent="android:Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!--
+            A native Action Mode could be displayed (for text selection, etc) so we need to ensure
+            that it is positioned correctly, so we request windowActionModeOverlay so that it
+            displays over the compat Action Bar.
+        -->
+        <item name="android:windowActionModeOverlay">true</item>
+
+        <!-- Attributes populated from the framework to be read by apps -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Dialog.FixedSize" parent="android:Theme.Holo.Dialog">
+        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Attributes populated from the framework to be read by apps -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Dialog.Light.FixedSize" parent="android:Theme.Holo.Light.Dialog">
+        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Attributes populated from the framework to be read by apps -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="Theme.Base.Light" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!--
+            A native Action Mode could be displayed (for text selection, etc) so we need to ensure
+            that it is positioned correctly, so we request windowActionModeOverlay so that it
+            displays over the compat Action Bar.
+        -->
+        <item name="android:windowActionModeOverlay">true</item>
+
+        <!-- Attributes populated from the framework to be read by apps -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+    <!-- From: file:/Users/willhennessy/AndroidStudioProjects/EOHApp2015/app/src/main/res/values-v11/themes_eoh.xml -->
+    <eat-comment/>
+    <style name="Theme.Eoh" parent="Theme.AppCompat.Light">
+
+		<item name="android:buttonStyle">@style/Buttoneoh</item>
+		
+		<item name="android:imageButtonStyle">@style/ImageButtoneoh</item>
+		
+		<item name="android:spinnerStyle">@style/Spinnereoh</item>
+		
+		<item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemeoh</item>
+		
+		<item name="android:actionBarStyle">@style/ActionBar.Solid.Eoh</item>
+		
+		<item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Eoh</item>
+
+	</style>
+    <!-- From: file:/Users/willhennessy/AndroidStudioProjects/EOHApp2015/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml -->
+    <eat-comment/>
+    <style name="Widget.AppCompat.Base.AutoCompleteTextView" parent="android:Widget.Holo.AutoCompleteTextView"/>
+    <style name="Widget.AppCompat.Base.ProgressBar" parent="android:Widget.Holo.ProgressBar"/>
+    <style name="Widget.AppCompat.Base.ProgressBar.Horizontal" parent="android:Widget.Holo.ProgressBar.Horizontal"/>
+    <style name="Widget.AppCompat.Light.Base.AutoCompleteTextView" parent="android:Widget.Holo.Light.AutoCompleteTextView"/>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/list_item_background"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="4dp" >
+    
+    <CheckBox
+        android:id="@+id/exhibit_list_item_star"
+        style="@style/StarStyleeoh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:contentDescription="@string/exhibit_list_item_star_description"
+        android:focusable="false"
+        android:onClick="onStarClicked"
+        android:layout_gravity="top"
+        android:layout_alignParentRight="true"
+        android:scaleX="0.70"
+        android:scaleY="0.70"
+        android:minWidth="45dp" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toLeftOf="@id/exhibit_list_item_star"
+        android:layout_marginRight="50dp" >
+    
+	    <TextView
+	        android:id="@+id/exhibit_list_item_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:maxLines="2"
+	        android:ellipsize="end"
+	        android:text="@string/exhibit_list_item_name"
+	        android:textColor="@color/eoh_blue" />
+	    
+	    <TextView
+	        android:id="@+id/exhibit_list_item_major"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@id/exhibit_list_item_name"
+	        android:background="@color/background_grey"
+	        android:ellipsize="end"
+	        android:maxLines="1"
+	        android:paddingBottom="2dp"
+	        android:paddingLeft="6dp"
+	        android:paddingRight="6dp"
+	        android:paddingTop="2dp"
+	        android:text="@string/exhibit_list_item_major"
+	        android:textSize="16sp"
+	        android:textColor="@color/text_grey"
+	        android:layout_marginTop="2dp" />
+	    
+	    <TextView
+	        android:id="@+id/exhibit_list_item_location"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:ellipsize="end"
+	        android:maxLines="1"
+	        android:textSize="16sp"
+	        android:text="@string/exhibit_list_item_location"
+	        android:textColor="@color/list_subtext_light_grey"
+	        android:layout_below="@id/exhibit_list_item_major"
+	        android:layout_marginTop="2dp" />
+    </RelativeLayout>
+    
+</RelativeLayout>
